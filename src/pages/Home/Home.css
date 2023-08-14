@@ -1,0 +1,14 @@
+.home {
+    background-color: var(--main-color);
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .home {
+        padding-top: 100px;
+    }
+
+    .itemExtended {
+        display: none;
+    }
+}

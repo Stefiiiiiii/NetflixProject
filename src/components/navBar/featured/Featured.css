@@ -1,0 +1,95 @@
+.featured {
+    height: 70vh;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .featured {
+        display: none;
+    }
+}
+
+.category {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.category select {
+    cursor: pointer;
+    background-color: var(--main-color);
+    border: 1px solid white;
+    color: white;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.imgcover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+}
+.info {
+    width: 35%;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.info .banner_title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.info .description {
+    margin: 20px 0px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.play {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.more {
+    background-color: gray;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.footer .icons-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.footer .icons-footer .icon-footer {
+    cursor: pointer;
+}
